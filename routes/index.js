@@ -1,7 +1,13 @@
 const routes = require("express").Router()
+const teachers = require("./teachers")
+const students = require("./students")
+
+routes.use("/teachers", teachers)
+routes.use("/students", students)
+
 
 routes.get('/', (req, res) => {
-    res.send("I love Hacktiv8")
+    res.render("index")
 })
 
 module.exports = routes
