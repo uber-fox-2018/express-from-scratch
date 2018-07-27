@@ -1,9 +1,8 @@
 'use strict'
 
 const app = require("express")()
+const routes = require('./routes')
 
-app.get('/', (req, res) => {
-    res.send("I love Hacktiv8!")
-})
+app.use('/', routes)
 
 app.listen(3000)
