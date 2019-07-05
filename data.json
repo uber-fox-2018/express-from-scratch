@@ -1,0 +1,44 @@
+{
+    "teachers": [
+      {
+        "id": 1,
+        "name": "Pak Udin"
+      },
+      {
+        "id": 2,
+        "name": "Bu Nurul"
+      }
+    ],
+    "students": [
+      {
+        "id": 1,
+        "name": "Ani",
+        "teacherId": 1
+      },
+      {
+        "id": 2,
+        "name": "Budi",
+        "teacherId": 2
+      },
+      {
+        "id": 3,
+        "name": "Lisa",
+        "teacherId": 2
+      },
+      {
+        "id": 4,
+        "name": "Mahdi",
+        "teacherId": 2
+      },
+      {
+        "id": 5,
+        "name": "Kresno",
+        "teacherId": 1
+      },
+      {
+        "id": 6,
+        "name": "Lia",
+        "teacherId": 2
+      }
+    ]
+  }
